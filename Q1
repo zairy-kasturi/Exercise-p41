@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float price = 9.90,totalprice;
+	int quantity, DISC = 10;
+
+	cout << "plz enter quantity : " << endl;
+	cin >> quantity;
+
+	totalprice = (price*quantity)*(100 - DISC) / 100;
+
+	cout << "Total proce is : RM " << totalprice;
+}
